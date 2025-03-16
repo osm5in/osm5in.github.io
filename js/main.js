@@ -89,7 +89,7 @@
     * ------------------------------------------------------ */
     var ssFinalCountdown = function() {
 
-        var finalDate =  new Date("July 8, 2024 15:37:25").getTime();
+        var finalDate =  new Date("April 8, 2025 15:37:25").getTime();
 
         $('.home-content__clock').countdown(finalDate)
         .on('update.countdown finish.countdown', function(event) {
